@@ -32,7 +32,7 @@ public class Command_administratemode implements CommandExecutor {
           else if (args[0].equalsIgnoreCase("on")) {
           player.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, 20000, 1));
           player.chat("/fly");
-          player.sendMessage(ChatColor.GREEN + "ShadowEra" + ChatColor.RED + " >>" + ChatColor.GREEN + " You have activated administration mode, please do /administrationmode off to disable :D");
+          player.sendMessage(ChatColor.GREEN + "ShadowEra" + ChatColor.RED + " >>" + ChatColor.GREEN + " You have activated administration mode, please do /administrationmode off to disable!");
           }   
           
           else if (args[0].equalsIgnoreCase("off")) {
